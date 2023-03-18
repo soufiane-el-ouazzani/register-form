@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Lobster&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lemonada', cursive;
+    font-family: 'Lobster', cursive;
+    background-color: #bde0fe;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #a2d2ff;
+    text-align: center;
+    border-radius: 2%;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+h2{
+    margin-bottom: 32px;
+}
+.form {
+    width: 400px;
+    height: 550px;
+}
+.form-control {
+    margin: 20px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+.form-control label {
+    display: block;
+    font-size: large;
+}
+
+.form-control input {
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid #bde0fe;
+    border-radius: 4px;
+    display: block; 
+    width: 100%;
+    font-size: 14px;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: #4ba1f2;
+    border-width:3px ;
+}
+
+.form-control.success input {
+    border-color:#38b000 ;
+}
+
+.form-control.error input {
+    border-color:#ba181b ;
+}
+
+.form-control button {
+    width: 100%;
+    background-color: #1b80debe; /* Green background */
+    color: white; /* White text */
+    padding: 12px 24px; /* Padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.form-control button:hover {
+    background-color:#1b80de;
+}
+
+small {
+    visibility: hidden;
+}
